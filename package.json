@@ -35,7 +35,7 @@
     "console-stamp": "^0.2.0",
     "diff-match-patch": "~1.0.0",
     "json-rpc2": "^1.0.2",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.5",
     "vscode-debugadapter": "^1.6.1",
     "vscode-debugprotocol": "^1.6.1"
   },
@@ -54,7 +54,7 @@
     "onCommand:go.test.cursor",
     "onCommand:go.test.package",
     "onCommand:go.test.file",
- 	"onCommand:go.test.coverage"
+    "onCommand:go.test.coverage"
   ],
   "main": "./out/src/goMain",
   "contributes": {
@@ -276,7 +276,7 @@
         "go.coverOnSave": {
           "type": "boolean",
           "default": false,
-          "description": "Run 'go test -coverprofile' on save"	
+          "description": "Run 'go test -coverprofile' on save"
         },
         "go.testTimeout": {
           "type": "string",
