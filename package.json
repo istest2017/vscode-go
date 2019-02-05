@@ -35,7 +35,7 @@
     "console-stamp": "^0.2.0",
     "diff-match-patch": "~1.0.0",
     "json-rpc2": "^1.0.2",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.11",
     "vscode-debugadapter": "^1.6.1",
     "vscode-debugprotocol": "^1.6.1"
   },
